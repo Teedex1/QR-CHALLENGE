@@ -79,16 +79,15 @@ p{
 }
 
 /* || MOBILE DEVICE */
-@media screen and (max-width: 320px) {
+@media screen and (mix-width: 375px) and (max-width: 812px) and (orientation:  landscape) and (-webkit-device-pixel-ratio: 2) {
     body{
     background-color: var(--BGCOLOR);
-
     }
     
 }
 
 /* || DESKTOP DISPLAY */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     body{
     background-color var(--BGCOLOR);
 
