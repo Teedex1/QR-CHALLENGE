@@ -1,1 +1,1 @@
-# QR-CHALLENGE
+# Frontend mentor QR challenge
