@@ -30,15 +30,14 @@ img{
 
 }
 
-.main{
+main{
     border-radius: 20px;
     display: grid;
     background-color: whitesmoke;
     display: grid;
     place-items: center;
-    max-width: 52%;
     width: 20em;
-    max-height: 52%;
+    max-height: 55%;
     height: auto;
 
 }
@@ -79,7 +78,7 @@ p{
 }
 
 /* || MOBILE DEVICE */
-@media screen and (mix-width: 375px) and (max-width: 812px) and (orientation:  landscape) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width: 375px)  {
     body{
     background-color: var(--BGCOLOR);
     }
@@ -89,8 +88,7 @@ p{
 /* || DESKTOP DISPLAY */
 @media screen and (min-width: 1440px) {
     body{
-    background-color var(--BGCOLOR);
+    background-color: var(--BGCOLOR);
 
     }
-    .container: max-width: 320px;
 }
